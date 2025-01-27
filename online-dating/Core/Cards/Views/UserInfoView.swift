@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct UserInfoView: View {
+    
+    @Binding var showProfileModal: Bool
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -36,5 +39,5 @@ struct UserInfoView: View {
 }
 
 #Preview {
-    UserInfoView()
+    UserInfoView(showProfileModal:.constant(false))
 }

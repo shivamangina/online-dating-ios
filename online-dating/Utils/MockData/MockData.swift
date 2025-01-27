@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct MockData {
+    static let users: [User] = []
+}

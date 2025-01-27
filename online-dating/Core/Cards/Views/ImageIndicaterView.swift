@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct ImageIndicaterView: View {
+    let currentImageIndex : Int = 0
+    let totalImageCount : Int = 3
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            ForEach(0..<totalImageCount, id: \.self) { index in
+              Capsule()
+                    .frame(width: 80, height: 3)
+                    .foregroundColor(index == currentImageIndex ? .white: .gray)
+                    .padding(.horizontal, 2)
+                    
+            }.padding(.vertical, 8)
+        }
     }
 }
 

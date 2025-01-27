@@ -10,19 +10,21 @@ import SwiftUI
 struct ImageScrollOverlayView: View {
     
 //  TODO: GET THE current image from the 
-//    @Binding var currentImage: Int
+    @Binding var currentImage: Int
     
     var body: some View {
+       
         HStack {
             Rectangle()
                 .fill(Color.white.opacity(0.01))
                 .onTapGesture {
-                    print("Left Tapped")
+                    currentImage-=1
+                    
                 }
             Rectangle()
                 .fill(Color.white.opacity(0.01))
                 .onTapGesture {
-                    print("Right Tapped")
+                    currentImage-=1
                 }
                 
         }
@@ -37,5 +39,5 @@ private extension ImageScrollOverlayView {
 }
 
 #Preview {
-    ImageScrollOverlayView()
+    ImageScrollOverlayView(currentImage:.constant(0))
 }

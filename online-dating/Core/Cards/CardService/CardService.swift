@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct CardService {
+    
+    func fetchCardDetails() async throws  -> [CardModel] {
+        return []
+    }
+    
+}

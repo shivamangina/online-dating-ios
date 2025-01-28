@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8DE292BF2D44EF3400B31D4E /* online-dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "online-dating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE292BF2D44EF3400B31D4E /* StudySwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8DE292C12D44EF3400B31D4E /* online-dating */ = {
+		8DE292C12D44EF3400B31D4E /* StudySwipe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "online-dating";
+			path = StudySwipe;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		8DE292B62D44EF3400B31D4E = {
 			isa = PBXGroup;
 			children = (
-				8DE292C12D44EF3400B31D4E /* online-dating */,
+				8DE292C12D44EF3400B31D4E /* StudySwipe */,
 				8DE292C02D44EF3400B31D4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		8DE292C02D44EF3400B31D4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DE292BF2D44EF3400B31D4E /* online-dating.app */,
+				8DE292BF2D44EF3400B31D4E /* StudySwipe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DE292BE2D44EF3400B31D4E /* online-dating */ = {
+		8DE292BE2D44EF3400B31D4E /* StudySwipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "online-dating" */;
+			buildConfigurationList = 8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "StudySwipe" */;
 			buildPhases = (
 				8DE292BB2D44EF3400B31D4E /* Sources */,
 				8DE292BC2D44EF3400B31D4E /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8DE292C12D44EF3400B31D4E /* online-dating */,
+				8DE292C12D44EF3400B31D4E /* StudySwipe */,
 			);
-			name = "online-dating";
+			name = StudySwipe;
 			packageProductDependencies = (
 			);
 			productName = "online-dating";
-			productReference = 8DE292BF2D44EF3400B31D4E /* online-dating.app */;
+			productReference = 8DE292BF2D44EF3400B31D4E /* StudySwipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "online-dating" */;
+			buildConfigurationList = 8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "StudySwipe" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DE292BE2D44EF3400B31D4E /* online-dating */,
+				8DE292BE2D44EF3400B31D4E /* StudySwipe */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "online-dating" */ = {
+		8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "StudySwipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE292CB2D44EF3500B31D4E /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "online-dating" */ = {
+		8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "StudySwipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE292CE2D44EF3500B31D4E /* Debug */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct online_datingApp: App {
+struct study_swipeApp: App {
     var body: some Scene {
         WindowGroup {
             TabBarView()

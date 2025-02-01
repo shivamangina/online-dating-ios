@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8DE292BF2D44EF3400B31D4E /* StudySwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8991C42D4E71AF0067394E /* StudySwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8DE292C12D44EF3400B31D4E /* StudySwipe */ = {
+		8D8991C62D4E71AF0067394E /* StudySwipe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = StudySwipe;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8DE292BC2D44EF3400B31D4E /* Frameworks */ = {
+		8D8991C12D4E71AF0067394E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8DE292B62D44EF3400B31D4E = {
+		8D8991BB2D4E71AE0067394E = {
 			isa = PBXGroup;
 			children = (
-				8DE292C12D44EF3400B31D4E /* StudySwipe */,
-				8DE292C02D44EF3400B31D4E /* Products */,
+				8D8991C62D4E71AF0067394E /* StudySwipe */,
+				8D8991C52D4E71AF0067394E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8DE292C02D44EF3400B31D4E /* Products */ = {
+		8D8991C52D4E71AF0067394E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DE292BF2D44EF3400B31D4E /* StudySwipe.app */,
+				8D8991C42D4E71AF0067394E /* StudySwipe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DE292BE2D44EF3400B31D4E /* StudySwipe */ = {
+		8D8991C32D4E71AF0067394E /* StudySwipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "StudySwipe" */;
+			buildConfigurationList = 8D8991D42D4E71AF0067394E /* Build configuration list for PBXNativeTarget "StudySwipe" */;
 			buildPhases = (
-				8DE292BB2D44EF3400B31D4E /* Sources */,
-				8DE292BC2D44EF3400B31D4E /* Frameworks */,
-				8DE292BD2D44EF3400B31D4E /* Resources */,
+				8D8991C02D4E71AF0067394E /* Sources */,
+				8D8991C12D4E71AF0067394E /* Frameworks */,
+				8D8991C22D4E71AF0067394E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8DE292C12D44EF3400B31D4E /* StudySwipe */,
+				8D8991C62D4E71AF0067394E /* StudySwipe */,
 			);
 			name = StudySwipe;
 			packageProductDependencies = (
 			);
-			productName = "online-dating";
-			productReference = 8DE292BF2D44EF3400B31D4E /* StudySwipe.app */;
+			productName = StudySwipe;
+			productReference = 8D8991C42D4E71AF0067394E /* StudySwipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8DE292B72D44EF3400B31D4E /* Project object */ = {
+		8D8991BC2D4E71AE0067394E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					8DE292BE2D44EF3400B31D4E = {
+					8D8991C32D4E71AF0067394E = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "StudySwipe" */;
+			buildConfigurationList = 8D8991BF2D4E71AE0067394E /* Build configuration list for PBXProject "StudySwipe" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8DE292B62D44EF3400B31D4E;
+			mainGroup = 8D8991BB2D4E71AE0067394E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8DE292C02D44EF3400B31D4E /* Products */;
+			productRefGroup = 8D8991C52D4E71AF0067394E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DE292BE2D44EF3400B31D4E /* StudySwipe */,
+				8D8991C32D4E71AF0067394E /* StudySwipe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8DE292BD2D44EF3400B31D4E /* Resources */ = {
+		8D8991C22D4E71AF0067394E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8DE292BB2D44EF3400B31D4E /* Sources */ = {
+		8D8991C02D4E71AF0067394E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8DE292CB2D44EF3500B31D4E /* Debug */ = {
+		8D8991D22D4E71AF0067394E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		8DE292CC2D44EF3500B31D4E /* Release */ = {
+		8D8991D32D4E71AF0067394E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		8DE292CE2D44EF3500B31D4E /* Debug */ = {
+		8D8991D52D4E71AF0067394E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"online-dating/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudySwipe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -264,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "shivamangina.online-dating";
+				PRODUCT_BUNDLE_IDENTIFIER = shivamangina.StudySwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -272,14 +272,14 @@
 			};
 			name = Debug;
 		};
-		8DE292CF2D44EF3500B31D4E /* Release */ = {
+		8D8991D62D4E71AF0067394E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"online-dating/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudySwipe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "shivamangina.online-dating";
+				PRODUCT_BUNDLE_IDENTIFIER = shivamangina.StudySwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DE292BA2D44EF3400B31D4E /* Build configuration list for PBXProject "StudySwipe" */ = {
+		8D8991BF2D4E71AE0067394E /* Build configuration list for PBXProject "StudySwipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE292CB2D44EF3500B31D4E /* Debug */,
-				8DE292CC2D44EF3500B31D4E /* Release */,
+				8D8991D22D4E71AF0067394E /* Debug */,
+				8D8991D32D4E71AF0067394E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DE292CD2D44EF3500B31D4E /* Build configuration list for PBXNativeTarget "StudySwipe" */ = {
+		8D8991D42D4E71AF0067394E /* Build configuration list for PBXNativeTarget "StudySwipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE292CE2D44EF3500B31D4E /* Debug */,
-				8DE292CF2D44EF3500B31D4E /* Release */,
+				8D8991D52D4E71AF0067394E /* Debug */,
+				8D8991D62D4E71AF0067394E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8DE292B72D44EF3400B31D4E /* Project object */;
+	rootObject = 8D8991BC2D4E71AE0067394E /* Project object */;
 }

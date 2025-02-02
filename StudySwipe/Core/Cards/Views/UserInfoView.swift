@@ -21,9 +21,13 @@ struct UserInfoView: View {
                     .font(.title)
                     .fontWeight(.semibold)
                 Spacer()
-                Image(systemName: "arrow.up.circle")
-                    .fontWeight(.bold)
-                    .imageScale(.large)
+                Button {
+                    showProfileModal.toggle()
+                } label: {
+                    Image(systemName: "arrow.up.circle")
+                        .fontWeight(.bold)
+                        .imageScale(.large)
+                }
             }
             Text("Actress | Director").font(.subheadline)
         }

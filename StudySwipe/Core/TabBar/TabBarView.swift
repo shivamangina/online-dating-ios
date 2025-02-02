@@ -26,7 +26,7 @@ struct TabBarView: View {
                     Image(systemName: "bubble")
                 }
                 .tag(2)
-            Text("Profile View")
+            CurrentUserProfileView()
                 .tabItem {
                     Image(systemName: "person")
                 }

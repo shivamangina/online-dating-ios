@@ -33,6 +33,8 @@ struct CardView: View {
 
             UserInfoView(showProfileModal:$showProfileModal).padding(.horizontal, 40)
 
+        }.fullScreenCover(isPresented: $showProfileModal) {
+            UserProfileView()
         }
         .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
         .clipShape(RoundedRectangle(cornerRadius: 20))
